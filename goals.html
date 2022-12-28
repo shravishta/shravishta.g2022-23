@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+
+            .navbar {
+  overflow: hidden;
+  background-color: black; 
+}
+
+    p {
+  max-width: 85ch;
+  font-size: xx-large;
+  line-height: 1.5em;
+  padding: 1em;
+  font-family:'Red Hat Text', sans-serif; ;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Red Hat Text', sans-serif;
+
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: 'Red Hat Text', sans-serif;
+
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color:limegreen;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: forestgreen;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color:white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color:gold;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+</style>
+<body>
+    <div class="navbar">
+      <a  style="border-radius: none;"  href="file:///C:/Users/shrav/Downloads/parallax.html#home">Home</a>
+      <div class="subnav">
+        <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          
+          <a href="file:///C:/Users/shrav/Downloads/team.html">Team</a>
+          <a href="file:///C:/Users/shrav/Downloads/goals.html">goals</a>
+          
+        </div>
+      </div> 
+      <div class="subnav">
+        <button class="subnavbtn">Projects<i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="https://www.vvdatalink.com/knowledge/wildlife/indian-wildlife/project-hangul">Protect Hangul</a>
+          <a href="https://www.heronconservation.org/herons-of-the-world/list-of-herons/white-bellied-heron/"> Save White Bellied Heron</a>
+          <a href="https://www.worldwildlife.org/species/tiger">Save Tigers</a>
+          <a href="https://www.wwf.org.uk/get-involved/schools/calendar/world-snow-leopard-day#:~:text=World%20Snow%20Leopard%20Day%3A%2023rd%20October%20%7C%20WWF">Snow Leopard day</a>
+        </div>
+      </div> 
+      <div class="subnav">
+        <button class="subnavbtn">Socials<i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="#link1">Linkedin</a>
+          <a href="#link2">Instagram</a>
+          <a href="#link3">Twitter</a>
+          <a href="#link4">Facebook</a>
+        </div>
+      </div>
+      <a href="#contact">Contact</a>
+    </div>
+    <p><b> Goals</b><br>
+  
+      raise funds for animal shelters and reserves by<span style="color: forestgreen;"> 30% </span> 6 months of launching the website
+      gain mainstream traction and <span style="color: forestgreen;">make the protection of endangered animals a top priority issue</span>
+      hire new employees to assist with market research and promotion 
+      
+        
